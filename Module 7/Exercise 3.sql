@@ -10,9 +10,6 @@ GO
 EXEC dbo.sp_rename @objname = N'[dbo].[FactInternetSales]', @newname = N'FactInternetSales_old', @objtype = N'OBJECT'
 GO
 
-USE [AdventureWorksDW]
-GO
-
 SET ANSI_NULLS ON
 GO
 
